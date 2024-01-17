@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/SimpleMap"
+            android:title="View Map"/>
+
+        <item
+            android:id="@+id/Saved_Locations"
+            android:title="Saved Locations"/>
+
+        <item
+            android:id="@+id/MarkedLocation"
+            android:title="EV Charger"/>
+    </group>
+
+
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/profile_main"
+                android:title="Profile"/>
+
+            <item
+                android:id="@+id/logout_main"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/rate_us"
+                android:title="Rate US"/>
+        </menu>
+    </item>
+</menu>
