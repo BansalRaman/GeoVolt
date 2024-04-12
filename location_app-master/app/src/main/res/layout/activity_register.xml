@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/buildings2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/RegisterHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:paddingStart="15dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:paddingStart="15dp"/>
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:paddingStart="15dp"/>
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:paddingStart="15dp"/>
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            android:hint="Phone Number"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:paddingStart="15dp"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:text="@string/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_background"/>
+
+        <TextView
+            android:id="@+id/loginNow"
+            android:text="@string/already_registered"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
